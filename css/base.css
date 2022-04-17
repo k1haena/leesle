@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+img{vertical-align: top;}
+*{margin: 0; padding: 0;}
+body{
+    font-family: 'GowunDodum-Regular';
+    color: #121212;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: #fff;
+}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+.clear::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
